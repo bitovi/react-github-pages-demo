@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: build-publish
-      uses: bitovi/github-actions-react-to-github-pages@bump-action-version
+      uses: bitovi/github-actions-react-to-github-pages@main
       with:
         path: build # change to your build folder
